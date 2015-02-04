@@ -190,13 +190,13 @@ var arrayMultiple3 = function(array) {
 
   var result = [];
 
-  for ( var i = 0 ; i < number.length ; i++ )
+  for ( var i = 0 ; i < array.length ; i++ )
   {
 
-    if( multiple3( number[i] ))
+    if( multiple3( array[i] ))
     {
 
-      result.push( number[i] )
+      result.push( array[i] )
 
     }
 
